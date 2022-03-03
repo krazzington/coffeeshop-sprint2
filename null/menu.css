@@ -1,0 +1,181 @@
+/* body */
+body {
+  font-family: "Open Sans";
+  max-width: 1280px;
+  min-width: 1280px;
+  margin: 0;
+}
+
+/* header */
+.header-section {
+  background-color: #FFF0ED;
+}
+
+.navbar {
+  background-color: #FFF0ED;
+  padding: 1vh;
+  margin: 0;
+}
+
+.header__h2--nitro {
+  font-size: 6vh;
+  display: inline;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  font-weight: 400;
+  font-size: 2.5vh;
+}
+
+.navbar__nav-list--left, .navbar__nav-list--right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__nav-list--right {
+  width: 34%;
+}
+
+li.nav-list a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+li.nav-list a.anchor-shop-now {
+  color: #5bacc3;
+}
+
+/* main */
+main {
+  height: 100vh;
+}
+
+.coffee-hero {
+  background-image: url("../assets/coffee-circle.jpg");
+  background-repeat: no-repeat;
+  height: 73%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1%;
+  -o-object-position: center;
+     object-position: center;
+  min-height: 460px;
+  max-height: 460px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: absolute;
+}
+
+.menu__border {
+  padding: 4rem 5rem;
+  border: 0.3rem solid #5bacc3;
+  color: white;
+  font-size: 1rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.menu__background::after {
+  content: "";
+  background-color: #393939;
+  position: absolute;
+  inset: 0;
+  transform: translate(5%, 5%);
+}
+
+.menu__text {
+  position: relative;
+  z-index: 1;
+}
+
+/* sub-nav */
+.div-sub-nav {
+  background-color: #393939;
+  -webkit-text-decoration: none white solid;
+          text-decoration: none white solid;
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+}
+
+.sub-nav {
+  color: white;
+  text-transform: uppercase;
+  border-left: 3px #5bacc3 solid;
+  padding: 0 4%;
+}
+
+.div-sub-nav-box {
+  padding: 1%;
+  margin: 0 33%;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 7vh;
+  font-weight: 300;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 3.5vh;
+  padding-top: 0;
+  margin-bottom: 1vh;
+}
+
+/* menu section */
+.menu-items {
+  text-align: center;
+}
+
+.div-menu-items {
+  height: auto;
+}
+
+.description {
+  font-size: 90%;
+  font-weight: 400;
+  font-style: italic;
+  width: 32%;
+  text-align: center;
+  padding: 0 33.5% 0 33.5%;
+  margin: 0;
+}
+
+.hot-drinks {
+  background-color: #FFF0ED;
+  padding: 2%;
+}
+
+.cold-drinks {
+  background-color: #f7f7f7;
+  padding: 2%;
+}
+
+.pastries {
+  background-color: #FFF0ED;
+  padding: 2%;
+}
+
+.price {
+  color: #5bacc3;
+  text-align: center;
+  margin: 0;
+  padding: 0 2%;
+}/*# sourceMappingURL=menu.css.map */
